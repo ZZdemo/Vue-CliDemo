@@ -1,13 +1,18 @@
 <template>
-  
+  <div>
+      <h3>登录</h3>
+      <input type="text" value="username">
+  </div>
 </template>
 
 <script>
 export default {
     data(){
-
+        return{
+            userName:""
+        }
     },
-    
+
 }
 </script>
 
